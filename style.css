@@ -307,7 +307,7 @@ h3{
   font-size: 13px;
   background: transparent;
   position: center;
-  cursor:;
+  cursor:pointer;
 }
 .hero-btn:hover{
   border: 1px solid#f44336;
