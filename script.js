@@ -61,7 +61,6 @@ embedImages=async()=>{
 
     const jpgImage=await
     pdfDoc.embedJpg(jpgImageBytes);
-
     //add a blank page to document
     const page=pdfDoc.addPage();
     //set page size
