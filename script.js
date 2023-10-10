@@ -5,6 +5,8 @@ var pdfName;
 var fileName='';
 const CreatePDF=document.getElementById('create-pdf');
 
+window.alert("Please ensure that provide only JPEG images");
+
  encodeImageFileAsURL=(element)=>{
   document.getElementById('input-page').style.display='none';
   document.getElementById('pdf-page').style.display='inline-block';
